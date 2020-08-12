@@ -1,0 +1,349 @@
+   22  mkdir git
+   23  cd git
+   24  git config
+   25  git status
+   26  git config --
+   27  mkdir 2020-08-12-nyr_git-dan
+   28  cd 2020-08-12-nyr_git-dan/
+   29  ls
+   30  ls -a
+   31  git init
+   32  ls
+   33  ls -a
+   34  git status
+   35  nano README.md
+   36  git status
+   37  git add README.md
+   38  git status
+   39  git commit
+   40  git status
+   41  histoory
+   42  history
+   43  code README.md
+   44  nano README.md
+   45  cat README.md
+   46  nano README.md
+   47  git status
+   48  git add README.md
+   49  git status
+   50  git commit -m "defined add and commit"
+   51  cat README.md
+   52  git log
+   53  git log
+   54  git log --oneline
+   55  git log
+   56  nano README.md
+   57  git status
+   58  git diff
+   59  git add README.md
+   60  git status
+   61  git diff
+   62  git diff --staged
+   63  nano README.md
+   64  git status
+   65  git diff
+   66  git diff --staged
+   67  git commit -m "-m flag and log + oneline"
+   68  git status
+   69  git diff
+   70  git add README.md
+   71  git status
+   72  git commit -m "talked about diff and diff staged"
+   73  git status
+   74  cat README.md
+   75  git log --oneline
+   76  git diff HEAD~2
+   77  git diff a288f82
+   78  nano README.md
+   79  git status
+   80  diff README.md
+   81  git diff README.md
+   82  git diff
+   83  git status
+   84  git restore README.md
+   85  git status
+   86  cat README.md
+   87  git log --oneline
+   88  git checkout 636c15e README.md
+   89  git checkout 646c15e README.md
+   90  git status
+   91  git diff --staged
+   92  history
+   93  git log --oneline
+   94  git status
+   95  cat README.md
+   96  git commit -m ""
+   97  git commit -m "revert back to commit 1"
+   98  cat README.md
+   99  git log --oneline
+  100  git checkout 1ac301a
+  101  git status
+  102  cat README.md
+  103  git checkout master
+  104  git log --oneline
+  105  cat README.md
+  106  cat README.md
+  107  git diff HEAD~1 README.md
+  108  history
+  109  git log --oneline
+  110  git checkout 2b54bc2 README.md
+  111  git status
+  112  cat README.md
+  113  git restore --staged README.md
+  114  git status
+  115  git restore README.md
+  116  git log --oneline
+  117  git restore 2b54bc2 README.md
+  118  git restore 2b54bc2 README.md
+  119  git checkout 2b54bc2 README.md
+  120  git status
+  121  git commit -m "retore to talk about diff"
+  122  nano README.md
+  123  git status
+  124  git diff README.md
+  125  git add README.md
+  126  git commit -m "checkout head restore/reset"
+  127  cat README.md
+  128  ssh-keygen.exe
+  129  cat /c/Users/Danie/.ssh/is_rsa_temp.pub
+  130  cat ~/.ssh/is_rsa_temp.pub
+  131  cd ~/.ssh
+  132  ls
+  133  cat is_rsa_temp[B.pub
+  134  git remote add origin git@github.com:chendaniely/2020-08-12-nyr_git-dan.git
+  135  cd -
+  136  git remote add origin git@github.com:chendaniely/2020-08-12-nyr_git-dan.git
+  137  git remote -v
+  138  git push origin master
+  139  mkdir data analysis
+  140  git status
+  141  ls
+  142  touch analysis/README.md
+  143  git status
+  144  git add .
+  145  git status
+  146  git commit -m "create analysis folder"
+  147  git status
+  148  git push origin master
+  149  ls
+  150  git add .
+  151  nano .gitignore
+  152  cat .git
+  153  cat .gitignore
+  154  git status
+  155  touch data/readme.md
+  156  git status
+  157  tough data/.gitkeep
+  158  touch data/.gitkeep
+  159  git status
+  160  git add -f data/.gitkeep
+  161  git status
+  162  git add .
+  163  git status
+  164  git commit -m "ignore data folder, keep data folder"
+  165  cat .gitignore
+  166  git push origin master
+  167  nano README.md
+  168  git status
+  169  git add .
+  170  git diff --staged
+  171  git commit -m "ignore, force add, remotes"
+  172  git push origin master
+  173  cd data/
+  174  ls
+  175  ls -a
+  176  cd ..
+  177  ls -a
+  178  ls
+  179  touch .hidden
+  180  ls
+  181  git status
+  182  git add .hidden
+  183  git status
+  184  git restore --staged
+  185  git status
+  186  git restore --staged .hidden
+  187  git status
+  188  rm .hidden
+  189  git status
+  190  cat README.md
+  191  git pull origin master
+  192  cat README.md
+  193  git log --oneline
+  194  nano README.md
+  195  git status
+  196  history
+  197  git status
+  198  git add README.md
+  199  git status
+  200  git commit -m "log will now show remote reference"
+  201  git status
+  202  git log --oneline
+  203  git log --oneline --graph
+  204  git log --oneline --graph --all --decorate
+  205  nano README.md
+  206  git status
+  207  git add README.md
+  208  git status
+  209  git commit -m "git log graph all oneline"
+  210  git status
+  211  git log --oneline --graph --all
+  212  git push origin master
+  213  git pull origin master
+  214  cat README.md
+  215  git status
+  216  git log --oneline --graph --all
+  217  nano README.md
+  218  vim README.md
+  219  vim README.md
+  220  git log --oneline --graph --all
+  221  git push origin master
+  222  nano README.md
+  223  git status
+  224  git diff
+  225  git add README.md
+  226  git commit -m "local change title"
+  227  git log --oneline
+  228  git push origin master
+  229  git pull origin master
+  230  nano README.md
+  231  git status
+  232  git merge --abort
+  233  cat README.md
+  234  git push origin master
+  235  git pull origin master
+  236  nano README.md
+  237  git status
+  238  git add README.md
+  239  git status
+  240  git commit
+  241  git push origin master
+  242  git log --oneline --graph --all
+  243  git status
+  244  git log --oneline
+  245  git branch my_first_branch
+  246  git log --oneline
+  247  # git checkout my_frist_branch
+  248  git switch my_frist_branch
+  249  git switch my_first_branch
+  250  git status
+  251  git log --oneline
+  252  nano analysis/script.R
+  253  git status
+  254  git add .
+  255  git status
+  256  git commit -m "rscript at attempts to runif"
+  257  git log --oneline
+  258  ls
+  259  ls analysis/
+  260  git checkout master
+  261  ls analysis/
+  262  git log --oneline
+  263  git log --oneline --all --graph
+  264  ls analysis/
+  265  git checkout my_first_branch
+  266  ls analysis/
+  267  git push origin my_first_branch
+  268  git push
+  269  git push origin master
+  270  git push origin my_first_branch
+  271  git status
+  272  git diff
+  273  git add .
+  274  git commit -m "actually sample 10 numbers not 0"
+  275  git log --oneline
+  276  git push origin my_first_branch
+  277  git checkout master # git switch master
+  278  git pull orgin master
+  279  git pull origin master
+  280  ls analysis/
+  281  git branch -a
+  282  git remote -v
+  283  git log --oneline --graph --all
+  284  git fetch --prune
+  285  git log --oneline --graph --all
+  286  git branch -d my_first_branch
+  287  # git branch -D my_first_branch
+  288  git checkout -b branch_notes
+  289  # git switch -c branch_notes
+  290  history
+  291  nano README.md
+  292  git status
+  293  git add README.md
+  294  git status
+  295  git commit -m "notes on conflicts, branches, and PRs"
+  296  git push origin branch_notes
+  297  git checkout master
+  298  git pull origin master
+  299  git fetch --prune
+  300  git branch -d branch_notes
+  301  git status
+  302  git branch -a
+  303  git checkout -b branch_conflicts
+  304  nano README.md
+  305  git add README.md
+  306  git commit -m "define a branch conflict"
+  307  git push origin branch_conflicts
+  308  git checkout master
+  309  git checkout -b define_rebase
+  310  nano README.md
+  311  git status
+  312  git branch -a
+  313  git checkout branch_conflicts
+  314  git diff
+  315  git stash
+  316  git checkout branch_conflicts
+  317  git log --oneline --graph --all
+  318  git checkout define_rebase
+  319  git stash apply
+  320  git stash list
+  321  git stash clear
+  322  git log --oneline --graph --all
+  323  git diff
+  324  git add README.md
+  325  git commit -m "talk about rebase"
+  326  git push origin define_rebase
+  327  git log --oneline --graph --all
+  328  git checkout master
+  329  git pull origin master
+  330  git log --oneline --graph --all
+  331  git fetch --prune
+  332  git branch -d branch_conflicts
+  333  git log --oneline --graph --all
+  334  git checkout define_rebase
+  335  git rebase master
+  336  git rebase --abourt
+  337  git rebase --abort
+  338  git rebase master
+  339  nano README.md
+  340  nano README.md
+  341  git status
+  342  git add README.md
+  343  git status
+  344  git rebase --continue
+  345  git status
+  346  git log --oneline --graph --all
+  347  git push origin define_rebase
+  348  git push -f origin master
+  349  git push -f origin define_rebase
+  350  git checkout master
+  351  git pull origin master
+  352  git fetch --prune
+  353  git branch -d define_rebase
+  354  git branch -a
+  355  git log --oneline --graph --all
+  356  history
+  357  git push -u origin master
+  358  ls
+  359  cat .gitignore
+  360  ls
+  361  nano README.md
+  362  git status
+  363  git add README.md
+  364  git commit -m "final exercise"
+  365  git status
+  366  git add .
+  367  git commit -m "whiteboard"
+  368  git status
+  369  nano history.txt
+  370  history
