@@ -10,3 +10,11 @@
     - `git log --oneline`: shows the 1 line version of the log
 - `git diff`: shows you the difference between current state and last commit
     - git diff --staged`: shows you the diff in the staging area
+- `git checkout <HASH> <FILE>`: reverts <FILE> back to the state in <HASH>
+    - `git checkout HEAD~<NUM> <FILE>`: reverts <FILE> back to state in HEAD~<NUM>
+    - `git checkout <HASH>`: moves HEAD to <HASH> (moves entire state/folder/snapshot)
+        - `git checkout master`: goes back to master from detached HEAD state
+- `HEAD`: tells you where you are currently looking
+- `git restore <FILE>`: throws away changes from <FILE>
+    - Can also use this to unstage from staging area
+    - Older versions of git use `git reset`
