@@ -36,3 +36,27 @@ These are the commands and notes that were covered during the workshop.
 - `git log --oneline`: will now show references to the remote, e.g., `origin/master`)
     - `git log --oneline --graph --all`: shows your the entire history and makes it pretty
 
+## Conflicts
+
+- You can have multiple people (yourself included) work on the same file and at the same place
+- Git will either automatically resolve the differences or show you a conflict.
+
+- You won't know there will be a conflict, until you run `git pull` when the remote and your local computer is out of sync
+    - It will either auto merge the changes
+    - Or show you which files have a conflict.
+        - You open the file and manually look for the `>>>`, `===`, and `<<<` and fix the file until you are satisfied.
+        - You can then `git add` and `git commit` your changes and re `git push`
+
+## Branches
+
+- `git branch <NAME>`: creates a new branch, <NAME> where HEAD is
+    - `git checkout -b <NAME>`: got create and move to branch in 1 step
+    - `git switch -c <NAME>`: newer git version to do the same task
+- `git checkout <BRANCH>`: move to branch <BRANCH>
+    - `git switch <BRANCH>`: newer way
+
+## Pull Requests (Online Merge)
+
+- `git log --oneline --graph --all`: show everything in history
+- `git fetch --prune`: removes the references from deleted branches in the remote
+- PRs don't need to be re-created after each branch update/push, the PR will auto update itself
