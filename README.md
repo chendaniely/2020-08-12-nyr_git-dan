@@ -1,4 +1,4 @@
-# 2020-08-12-nyr_git-dan
+# Git Workshop
 
 These are the commands and notes that were covered during the workshop.
 
