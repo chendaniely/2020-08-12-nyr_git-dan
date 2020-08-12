@@ -1,5 +1,7 @@
 # 2020-08-12-nyr_git-dan
 
+## Local
+
 - `git init`: create git repository (repo) in current folder
     - only do this once per repo
 - `git status`: tells you your current git status
@@ -20,6 +22,8 @@
     - Older versions of git use `git reset`
 - `.gitignore`: special file git uses to ignore files/folders
     - `git add -f <FILE>` force add a file that is ignored
+
+## Remote
 
 - `git remote add <NAME> <URL>`: adds the reference <NAME> to the <URL>
     - `git remote add origin <SSH URL>`
