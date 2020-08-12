@@ -1,4 +1,4 @@
-# Git Workshop
+# 2020-08-12 NYR Git Workshop
 
 These are the commands and notes that were covered during the workshop.
 
