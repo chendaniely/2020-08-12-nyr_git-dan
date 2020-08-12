@@ -64,4 +64,6 @@ These are the commands and notes that were covered during the workshop.
 ## Branch conflicts
 
 - happens when branches do work in the same place and the conflict happens when you try to merge all the branches
-
+- `git rebase <BRANCH>`: rebases agaist a branch to rewind and play back commits
+    - Usually this is `git rebase master`
+    - See 3.8.4: https://chendaniely.github.io/training_ds_r/help-faq.html
