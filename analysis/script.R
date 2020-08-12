@@ -1,3 +1,1 @@
-print(runif(0, 1))
-
-
+print(runif(10))
