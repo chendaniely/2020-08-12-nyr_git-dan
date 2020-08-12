@@ -18,3 +18,11 @@
 - `git restore <FILE>`: throws away changes from <FILE>
     - Can also use this to unstage from staging area
     - Older versions of git use `git reset`
+- `.gitignore`: special file git uses to ignore files/folders
+    - `git add -f <FILE>` force add a file that is ignored
+
+- `git remote add <NAME> <URL>`: adds the reference <NAME> to the <URL>
+    - `git remote add origin <SSH URL>`
+- `git push <WHERE> <WHAT>`: pushes <WHAT> to <WHERE>
+    - `git push origin master`
+    - do this once for rstudio: `git push -u origin master`
