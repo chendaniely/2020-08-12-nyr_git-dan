@@ -30,3 +30,5 @@
 - `git push <WHERE> <WHAT>`: pushes <WHAT> to <WHERE>
     - `git push origin master`
     - do this once for rstudio: `git push -u origin master`
+
+- `git log --oneline`: will now show references to the remote, e.g., `origin/master`)
