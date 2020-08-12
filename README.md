@@ -8,3 +8,5 @@
     - `git commit -m "MESSAGE"`: write a one line message and commit in 1 step
 - `git log`: show you the history of the commits
     - `git log --oneline`: shows the 1 line version of the log
+- `git diff`: shows you the difference between current state and last commit
+    - git diff --staged`: shows you the diff in the staging area
