@@ -60,3 +60,8 @@ These are the commands and notes that were covered during the workshop.
 - `git log --oneline --graph --all`: show everything in history
 - `git fetch --prune`: removes the references from deleted branches in the remote
 - PRs don't need to be re-created after each branch update/push, the PR will auto update itself
+
+## Branch conflicts
+
+- happens when branches do work in the same place and the conflict happens when you try to merge all the branches
+
