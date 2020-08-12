@@ -67,3 +67,32 @@ These are the commands and notes that were covered during the workshop.
 - `git rebase <BRANCH>`: rebases agaist a branch to rewind and play back commits
     - Usually this is `git rebase master`
     - See 3.8.4: https://chendaniely.github.io/training_ds_r/help-faq.html
+
+## Final exercise
+
+1. (M) will add (C) as a collaborator
+2. (C) accept the invitation (email)
+3. (C) `clone` the repo to their computer
+    - make sure it's not nested
+4. (M)/(C) make a new branch, edit the script.R file, add, commit, push to remote
+  - `git checkout -b my_colab_update`
+  - edit file
+  - `git add .`
+  - `git commit -m ""`
+  - `git push origin my_colab_update`
+
+5. (M) (C): create a PR to the repo
+6. (M) accept each one separately
+    - (M) accept theirs first
+
+Probably a conflict with (C)
+
+7. (C): fix conflicts
+  - `git checkout master`,
+  - `git pull origin master`,
+  - `git checkout your_branch`,
+  - `git rebase master`
+  - fix conflicts
+  - re-push branch to update PR
+
+8. (M) should be able to merge
