@@ -68,6 +68,33 @@ These are the commands and notes that were covered during the workshop.
     - Usually this is `git rebase master`
     - See 3.8.4: https://chendaniely.github.io/training_ds_r/help-faq.html
 
+## Some additional notes and links
+
+- Software Carpentry notes on basic git: https://swcarpentry.github.io/git-novice/
+    - The setting up git has the commands to setup your name/email/editor: https://swcarpentry.github.io/git-novice/02-setup/index.html
+
+- Git workflow notes and commands (to paste on your wall)
+    - https://chendaniely.github.io/training_ds_r/help-faq.html
+
+- Atlassian page on git workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
+    - The one we covered today was mainly the "Feature Branch Workflow": https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
+- The atlassian page has more infor about "git flow", but this is also another top Google hit that I liked:
+  - https://nvie.com/posts/a-successful-git-branching-model/
+
+- Getting your (bash) terminal to show current path and other things:
+    - Use this to create your PS1 variable: http://bashrcgenerator.com/
+
+- Show git branch in terminal:
+    - In addition you can write a function and put that in your PS1 to also show git branch
+    - https://gist.github.com/joseluisq/1e96c54fa4e1e5647940
+
+- https://chendaniely.github.io/training_ds_r/help-faq.html (has the checklist)
+- https://happygitwithr.com/ (more rstudio specific workflows)
+- https://swcarpentry.github.io/git-novice/
+- https://www.youtube.com/watch?v=uvWhSYBkZJ0
+- Setting up ssh links: https://bi-sdal.github.io/training/ssh-keys.html
+
 ## Final exercise
 
 1. (M) will add (C) as a collaborator
